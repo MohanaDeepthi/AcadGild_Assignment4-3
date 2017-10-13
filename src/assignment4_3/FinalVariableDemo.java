@@ -7,5 +7,9 @@ public class FinalVariableDemo {
 	public FinalVariableDemo() {
 		countVar++; //The final field FinalVariableExample.count cannot be assigned
 	}
+	
+	public static void main(String args[]){//main method
+		FinalVariableDemo varDemo = new FinalVariableDemo();//instantiating object
+	}
 
 }
